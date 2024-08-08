@@ -33,4 +33,10 @@ DNS Blocklists compiled by me. They are a unification of a bunch of blocklists m
   </ul>
 </details>
 
-# Blocklists
+# Blocklists Included
+| Name | Status | URL |
+|------|-------|------|
+| AdGuard Default DNS filter | 🟢 Enabled | https://adguardteam.github.io/HostlistsRegistry/assets/filter_1.txt |
+| AdAway Default Blocklist | 🟢 Enabled | https://adguardteam.github.io/HostlistsRegistry/assets/filter_2.txt |
+| Stalkerware Indicators List | 🟢 Enabled | https://adguardteam.github.io/HostlistsRegistry/assets/filter_31.txt |
+
