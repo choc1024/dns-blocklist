@@ -13,6 +13,8 @@
 # Description
 DNS Blocklists compiled by me. They are a unification of a bunch of blocklists made by other people. Also, if you find it usefull or like it, please spread the word and star this repo!
 
+Also, PLEASE READ THE CHANGELOG.MD FILE!!!
+
 # FAQ
 <details>
   <summary>Which software are currently supported?</summary>
