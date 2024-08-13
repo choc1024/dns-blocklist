@@ -11,7 +11,7 @@
   - [Steps](https://github.com/choc1024/dns-blocklist?tab=readme-ov-file#steps)
 
 # Description
-DNS Blocklists compiled by me. They are a unification of a bunch of blocklists made by other people.
+DNS Blocklists compiled by me. They are a unification of a bunch of blocklists made by other people. Also, if you find it usefull or like it, please spread the word and star this repo!
 
 # FAQ
 <details>
