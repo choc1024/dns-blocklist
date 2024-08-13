@@ -1,3 +1,12 @@
+# Table of Contents
+- [Description](https://github.com/choc1024/dns-blocklist?tab=readme-ov-file#description)
+- [FAQ](https://github.com/choc1024/dns-blocklist?tab=readme-ov-file#faq)
+- [Blocklists Included](https://github.com/choc1024/dns-blocklist?tab=readme-ov-file#blocklists-included)
+- [Unblocking Rules](https://github.com/choc1024/dns-blocklist?tab=readme-ov-file#unblocking-rules)
+- [Pros and Cons of using a unified list](https://github.com/choc1024/dns-blocklist?tab=readme-ov-file#pros-and-cons-of-using-a-unified-list)
+  - [Pros](https://github.com/choc1024/dns-blocklist?tab=readme-ov-file#pros)
+  - [Cons](https://github.com/choc1024/dns-blocklist?tab=readme-ov-file#cons)
+
 # Description
 DNS Blocklists compiled by me. They are a unification of a bunch of blocklists made by other people.
 
