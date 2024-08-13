@@ -31,7 +31,7 @@ Also, PLEASE READ THE CHANGELOG.MD FILE!!!
 <details>
   <summary>How do I use it?</summary>
   <ul>
-    <p>Open your AdGuard Home interface, go to Filters > DNS Blocklists, click "Add Blocklist", select "Add Custom List" and then give it the title you want and copy paste this URL: https://github.com/choc1024/dns-blocklist/raw/main/latest/latest.txt. Or just DuckDuckGo it for more info.</p>
+    <p>Open your AdGuard Home interface, go to Filters > DNS Blocklists, click "Add Blocklist", select "Add Custom List" and then give it the title you want and copy paste this URL: https://github.com/choc1024/dns-blocklist/raw/main/latest/latest.txt OR this alternative mirror URL: https://gitlab.com/choc1024/dns-blocklist/-/raw/main/latest/latest.txt. Or just DuckDuckGo it for more info.</p>
   </ul>
 </details>
 <details>
