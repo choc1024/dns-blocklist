@@ -13,7 +13,7 @@
 # Description
 DNS Blocklists compiled by me. They are a unification of a bunch of blocklists made by other people. Also, if you find it usefull or like it, please spread the word and star this repo!
 
-Also, PLEASE READ THE CHANGELOG.MD FILE!!!
+Also, PLEASE READ THE CHANGELOG.MD FILE!!! NOTICE: To reduce the posibilities of the blocklist being unavailable (e.g., GitHub servers hit by a meteorite or Microsoft taking down this repo), I have made a mirror of the repo at [GitLab](https://gitlab.com/choc1024/dns-blocklist/). 
 
 # FAQ
 <details>
