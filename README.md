@@ -101,3 +101,12 @@ If you open an issue wanting me to unblock your website or service, then the iss
 - What are the potential consequences of blocking it (do websites break?)
 
 If you are NOT the owner of that website or service, you can still request to unblock one.
+
+# Pros and Cons of using a unified list
+
+## Pros
+- In a unified list, all duplicate rules are automatically removed and normally, all rules are optimized. Which means that it is more lightweight. Take this blocklist for example. If we sum up all of the rules in every blocklist individually, it is around 2~3 million. But after unifying them, we get just a bit more than 1.5 million rules.
+- It is easier to add just 1 big blocklist than adding a bunch of smaller blocklists one by one and having to search their URLs.
+- For a software (like AdGuard Home) to update the blocklists, it is more helpful as it just needs to download a single blocklist rather than checking a dozen.
+## Cons
+- A unified Blocklist contains ALL rules of a dozen of blocklists, which removes the possibility of blocking only a specific type of websites (e.g., only blocking malware instead of malware AND ads, trackers, phishing, etc.)
