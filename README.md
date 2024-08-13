@@ -6,6 +6,9 @@
 - [Pros and Cons of using a unified list](https://github.com/choc1024/dns-blocklist?tab=readme-ov-file#pros-and-cons-of-using-a-unified-list)
   - [Pros](https://github.com/choc1024/dns-blocklist?tab=readme-ov-file#pros)
   - [Cons](https://github.com/choc1024/dns-blocklist?tab=readme-ov-file#cons)
+- [Compiling](https://github.com/choc1024/dns-blocklist?tab=readme-ov-file#compiling)
+  - [Prerequesites](https://github.com/choc1024/dns-blocklist?tab=readme-ov-file#prerequesites)
+  - [Steps](https://github.com/choc1024/dns-blocklist?tab=readme-ov-file#steps)
 
 # Description
 DNS Blocklists compiled by me. They are a unification of a bunch of blocklists made by other people.
@@ -119,3 +122,28 @@ If you are NOT the owner of that website or service, you can still request to un
 - For a software (like AdGuard Home) to update the blocklists, it is more helpful as it just needs to download a single blocklist rather than checking a dozen.
 ## Cons
 - A unified Blocklist contains ALL rules of a dozen of blocklists, which removes the possibility of blocking only a specific type of websites (e.g., only blocking malware instead of malware AND ads, trackers, phishing, etc.)
+
+# Compiling
+
+## Prerequesites
+
+- NPM
+- Internet
+- Git
+
+## Steps
+
+1. Install [hostlist-compiler](https://github.com/AdguardTeam/HostlistCompiler) using NPM:
+```
+npm i -g @adguard/hostlist-compiler
+```
+2. Clone this repo using git:
+```
+git clone https://github.com/choc1024/dns-blocklist.git
+cd dns-blocklist/latest
+```
+3. Compile:
+```
+hostlist-compiler -c config.json -o myCustomBlocklist.txt
+```
+Please note that the compilation may take a few minutes (for me it took half an hour). It is recommended to let it run in the background while you do other things. 
