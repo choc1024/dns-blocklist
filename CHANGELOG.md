@@ -1,5 +1,10 @@
 # CHANGELOG
 
+## v3.0
+
+Hey!
+This build has been compiled with a new Python script, and from now on, most if not all builds will be compiled by it, so I don't have to do anything manually. Also, I think this will make building everything a lot easier, as the script will also automatically do git push.
+
 ## v2.3
 
 Build Time: 13:39:41
