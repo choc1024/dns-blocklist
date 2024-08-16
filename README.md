@@ -48,7 +48,7 @@ Also, PLEASE READ THE CHANGELOG.MD FILE!!! NOTICE: To reduce the posibilities of
 | OISD Blocklist Big | 🟢 Enabled | https://adguardteam.github.io/HostlistsRegistry/assets/filter_27.txt | 
 | Peter Lowe's Blocklist | 🟢 Enabled | https://adguardteam.github.io/HostlistsRegistry/assets/filter_3.txt | 
 | Steven Black's List | 🟢 Enabled | https://adguardteam.github.io/HostlistsRegistry/assets/filter_33.txt |  
-| HaGeZi's Allowlist Referral | 🟢 Enabled | https://adguardteam.github.io/HostlistsRegistry/assets/filter_45.txt | 
+| HaGeZi's Allowlist Referral | 🔴 REMOVED (See CHANGELOG) | https://adguardteam.github.io/HostlistsRegistry/assets/filter_45.txt | 
 | Dandelion Sprout Anti Push Notifications | 🟢 Enabled | https://adguardteam.github.io/HostlistsRegistry/assets/filter_39.txt | 
 | Malicious URL Blocklist (URLHaus) | 🟢 Enabled | https://adguardteam.github.io/HostlistsRegistry/assets/filter_11.txt | 
 | ShadowWhisperer's Dating List | 🟢 Enabled | https://adguardteam.github.io/HostlistsRegistry/assets/filter_57.txt | 
