@@ -1,15 +1,3 @@
-# Table of Contents
-- [Description](https://github.com/choc1024/dns-blocklist?tab=readme-ov-file#description)
-- [FAQ](https://github.com/choc1024/dns-blocklist?tab=readme-ov-file#faq)
-- [Blocklists Included](https://github.com/choc1024/dns-blocklist?tab=readme-ov-file#blocklists-included)
-- [Unblocking Rules](https://github.com/choc1024/dns-blocklist?tab=readme-ov-file#unblocking-rules)
-- [Pros and Cons of using a unified list](https://github.com/choc1024/dns-blocklist?tab=readme-ov-file#pros-and-cons-of-using-a-unified-list)
-  - [Pros](https://github.com/choc1024/dns-blocklist?tab=readme-ov-file#pros)
-  - [Cons](https://github.com/choc1024/dns-blocklist?tab=readme-ov-file#cons)
-- [Compiling](https://github.com/choc1024/dns-blocklist?tab=readme-ov-file#compiling)
-  - [Prerequesites](https://github.com/choc1024/dns-blocklist?tab=readme-ov-file#prerequesites)
-  - [Steps](https://github.com/choc1024/dns-blocklist?tab=readme-ov-file#steps)
-
 # Description
 DNS Blocklists compiled by me. They are a unification of a bunch of blocklists made by other people. Also, if you find it usefull or like it, please spread the word and star this repo!
 
@@ -149,3 +137,11 @@ cd dns-blocklist/latest
 hostlist-compiler -c config.json -o myCustomBlocklist.txt
 ```
 Please note that the compilation may take a few minutes (for me it took half an hour). It is recommended to let it run in the background while you do other things. 
+
+# Notice
+
+I am currently working on a script that automatically compiles everything and updates them to github REGULARLY, but it is not complete (yet), and until then everything will be compiled manually every day (or so).
+
+## GitLab and GitHub
+
+The blocklist has been uploaded to both GitLab AND GitHub, but GitHub is the RECOMMENDED source because it I mainly upload all updates to it (the script may fix it but IDK).

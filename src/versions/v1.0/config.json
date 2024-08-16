@@ -1,0 +1,161 @@
+{
+	"name": "Choco's Combined List",
+	"description": "A combination of blocklists for AdGuard Home",
+	"version": "1.0",
+	"sources": [{
+			"name": "AdGuard Default DNS filter",
+			"source": "https://adguardteam.github.io/HostlistsRegistry/assets/filter_1.txt"
+		},
+		{
+			"name": "AdAway Default Blocklist",
+			"source": "https://adguardteam.github.io/HostlistsRegistry/assets/filter_2.txt",
+			"type": "hosts"
+		},
+		{
+			"name": "Stalkerware Indicators List",
+			"source": "https://adguardteam.github.io/HostlistsRegistry/assets/filter_31.txt",
+			"type": "hosts"
+		},
+		{
+			"name": "AdGuard DNS Popup Hosts filter",
+			"source": "https://adguardteam.github.io/HostlistsRegistry/assets/filter_59.txt"
+		},
+		{
+			"name": "Dan Pollock's List",
+			"source": "https://adguardteam.github.io/HostlistsRegistry/assets/filter_4.txt",
+			"type": "hosts"
+		},
+		{
+			"name": "AWAvenue Ads Rule",
+			"source": "https://adguardteam.github.io/HostlistsRegistry/assets/filter_53.txt"
+		},
+		{
+			"name": "HaGeZi's Ultimate Blocklist",
+			"source": "https://adguardteam.github.io/HostlistsRegistry/assets/filter_49.txt"
+		},
+		{
+			"name": "OISD Blocklist Big",
+			"source": "https://adguardteam.github.io/HostlistsRegistry/assets/filter_27.txt"
+		},
+		{
+			"name": "Peter Lowe's Blocklist",
+			"source": "https://adguardteam.github.io/HostlistsRegistry/assets/filter_3.txt"
+		},
+		{
+			"name": "Steven Black's List",
+			"source": "https://adguardteam.github.io/HostlistsRegistry/assets/filter_33.txt",
+			"type": "hosts"
+		},
+		{
+			"name": "HaGeZi's Allowlist Referral",
+			"source": "https://adguardteam.github.io/HostlistsRegistry/assets/filter_45.txt"
+		},
+		{
+			"name": "Dandelion Sprout Anti Push Notifications",
+			"source": "https://adguardteam.github.io/HostlistsRegistry/assets/filter_39.txt"
+		},
+		{
+			"name": "Malicious URL Blocklist (URLHaus)",
+			"source": "https://adguardteam.github.io/HostlistsRegistry/assets/filter_11.txt"
+		},
+		{
+			"name": "ShadowWhisperer's Dating List",
+			"source": "https://adguardteam.github.io/HostlistsRegistry/assets/filter_57.txt"
+		},
+		{
+			"name": "NoCoin Filter List",
+			"source": "https://adguardteam.github.io/HostlistsRegistry/assets/filter_8.txt",
+			"type": "hosts"
+		},
+		{
+			"name": "Phishing Army",
+			"source": "https://adguardteam.github.io/HostlistsRegistry/assets/filter_18.txt",
+			"type": "hosts"
+		},
+		{
+			"name": "Phishing URL Blocklist (PhishTank and OpenPhish)",
+			"source": "https://adguardteam.github.io/HostlistsRegistry/assets/filter_30.txt"
+		},
+		{
+			"name": "HaGeZi's The World's Most Abused TLDs",
+			"source": "https://adguardteam.github.io/HostlistsRegistry/assets/filter_56.txt"
+		},
+		{
+			"name": "HaGeZi's Threat Intelligence Feeds (TIF)",
+			"source": "https://adguardteam.github.io/HostlistsRegistry/assets/filter_44.txt"
+		},
+		{
+			"name": "Dandelion Sprout's Anti-Malware List",
+			"source": "https://adguardteam.github.io/HostlistsRegistry/assets/filter_12.txt"
+		},
+		{
+			"name": "HaGeZi's DynDNS Blocklist",
+			"source": "https://adguardteam.github.io/HostlistsRegistry/assets/filter_54.txt"
+		},
+		{
+			"name": "HaGeZi's Encrypted DNS/VPN/TOR/Proxy Bypass",
+			"source": "https://adguardteam.github.io/HostlistsRegistry/assets/filter_52.txt"
+		},
+		{
+			"name": "The Blocklist Project: Ads",
+			"source": "https://blocklistproject.github.io/Lists/adguard/ads-ags.txt"
+		},
+		{
+			"name": "The Blocklist Project: Tracking",
+			"source": "https://blocklistproject.github.io/Lists/adguard/tracking-ags.txt"
+		},
+		{
+			"name": "The Blocklist Project: Porn",
+			"source": "https://blocklistproject.github.io/Lists/adguard/porn-ags.txt"
+		},
+		{
+			"name": "HaGeZi's Popup Ads",
+			"source": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/popupads.txt"
+		},
+		{
+			"name": "ph00lt0 Blocklist Unified",
+			"source": "https://raw.githubusercontent.com/ph00lt0/blocklists/master/blocklist.txt"
+		},
+		{
+			"name": "1Hosts Pro",
+			"source": "https://cdn.jsdelivr.net/gh/badmojr/1Hosts@master/Pro/adblock.txt"
+		},
+		{
+			"name": "EasyList AdServers",
+			"source": "https://github.com/easylist/easylist/raw/master/easylist/easylist_adservers.txt"
+		},
+		{
+			"name": "EasyList Allowlist",
+			"source": "https://github.com/easylist/easylist/raw/master/easylist/easylist_allowlist.txt"
+		},
+		{
+			"name": "EasyList Third Party",
+			"source": "https://github.com/easylist/easylist/raw/master/easylist/easylist_thirdparty.txt"
+		},
+		{
+			"name": "EasyPrivacy Tracking Servers",
+			"source": "https://github.com/easylist/easylist/raw/master/easyprivacy/easyprivacy_trackingservers.txt"
+		},
+		{
+			"name": "EasyPrivacy Tracking Servers Third Party",
+			"source": "https://github.com/easylist/easylist/raw/master/easyprivacy/easyprivacy_trackingservers_thirdparty.txt"
+		},
+		{
+			"name": "EasyPrivacy Tracking Servers Notifications",
+			"source": "https://github.com/easylist/easylist/raw/master/easyprivacy/easyprivacy_trackingservers_notifications.txt"
+		},
+		{
+			"name": "EasyPrivacy Tracking Servers Mining",
+			"source": "https://github.com/easylist/easylist/raw/master/easyprivacy/easyprivacy_trackingservers_mining.txt"
+		},
+		{
+			"name": "EasyPrivacy Tracking Servers International",
+			"source": "https://github.com/easylist/easylist/raw/master/easyprivacy/easyprivacy_trackingservers_international.txt"
+		},
+		{
+			"name": "EasyPrivacy Tracking Servers General",
+			"source": "https://github.com/easylist/easylist/raw/master/easyprivacy/easyprivacy_trackingservers_general.txt"
+		}
+	],
+	"transformations": ["Deduplicate", "Compress", "RemoveEmptyLines", "TrimLines", "InsertFinalNewLine"]
+}

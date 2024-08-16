@@ -2,9 +2,9 @@
 
 ## v2.3
 
-Build Time: Scheduled for the Future
+Build Time: 13:39:41
 
-In this build, the HaGeZi's Allowlist Referal has been removed. This may mean that email referals and others can stop working. If you need to unbeak them, add the allowlist to your software.
+In this build, the HaGeZi's Allowlist Referal has been removed. This may mean that email referals and others can stop working. If you need to unbeak them, you can always add the allowlist manually.
 
 ## v2.0
 
