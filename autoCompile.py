@@ -16,10 +16,6 @@ def delete_all_files_in_directory(directory_path):
 
 
 
-
-
-
-
 # Get Time
 startTime = datetime.now()
 
@@ -255,6 +251,7 @@ run.wait()
 
 if run.returncode != 0:
     print(f"Error return code: {run.returncode}")
+    print(run)
 
 
 
@@ -397,7 +394,14 @@ print("Now: Running 'git add .' ...")
 
 gitAdd = subprocess.run(["git", "add", "."])
 
-print(gitAdd.stdout)
+gitCom = subprocess.run(["git", "commit", "-m", "'Automatic Compilation Update'"])
+
+
+print(gitAdd)
+print(gitCom)
+
+
+
 print("OK.")
 print("Now: Running 'git push' ... Please make sure that you have the credentials for the repository.")
 print("Please enter the URL for the repo,")
