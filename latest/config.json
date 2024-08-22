@@ -89,6 +89,14 @@
 			"source": "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/dyndns.txt"
 		},
 		{
+			"name": "HaGaZi's Allowlist",
+			"source": "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/whitelist-referral.txt"	
+		},
+		{
+			"name": "HaGeZi's Pop-Up Ads",
+			"source": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/popupads.txt"
+		},
+		{
 			"name": "HaGeZi's Encrypted DNS/VPN/TOR/Proxy Bypass",
 			"source": "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/doh-vpn-proxy-bypass.txt"
 		},

@@ -1,5 +1,15 @@
 # CHANGELOG
 
+
+## v3.5
+
+OK, removing HaGeZi's Allowlist was a BAD idea... 
+So um... I am adding it back. This is embarassing, but still, I realised that removing the allowlist actually breaks a lot of things, so I am going to add it back in this version.
+
+Also, the last snapshot got kinda corrupted... maybe? Because the scirpt crashed as the gitlab credentials were out of date. So that's another reason for releasing this.
+
+ALSO, added the HaGeZi's Pop-Up Ads filter.
+
 ## v3.0
 
 Hey!
