@@ -394,6 +394,8 @@ print("Now: Running 'git add .' ...")
 
 gitAdd = subprocess.run(["git", "add", "."])
 
+print("Now: Running 'git commit -m \"Automatic Compilation Update\"'...")
+
 gitCom = subprocess.run(["git", "commit", "-m", "'Automatic Compilation Update'"])
 
 
