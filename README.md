@@ -1,3 +1,6 @@
+# Trust me bro
+It looks like most people here just don't trust this. But seriously... why would I redirect you to malicious IPs? Also, there is no way to do so, because everything is in ABP format, which does not support this. Still don't believe me? Then use RegExp (Regular Expressions, aka regex) to search for IPv4 and IPv6 IPs in the blocklist. There is none.
+
 # Description
 DNS Blocklists compiled by me. They are a unification of a bunch of blocklists made by other people. Also, if you find it usefull or like it, please spread the word and star this repo!
 
@@ -142,6 +145,7 @@ Please note that the compilation may take a few minutes (for me it took half an 
 # Notice
 
 I am currently working on a script that automatically compiles everything and updates them to github REGULARLY, but it is not complete (yet), and until then everything will be compiled manually every day (or so).
+Update: The script is finished.
 
 ## GitLab and GitHub
 
