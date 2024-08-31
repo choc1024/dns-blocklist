@@ -83,7 +83,7 @@ Gets the time as of running the script
 # Get Time
 startTime = datetime.now()
 
-version = "1.3"
+version = "2.5"
 
 log("info", "Starting time: " + str(startTime) + ", version: " + version)
 
@@ -197,6 +197,18 @@ while n != len(arguments):
         argChangeText = arguments[n]
         n += 1
         continue
+        
+    elif arguments[n] == "--change":
+        if argChange == True:
+            print("Error: argument cannot be used twice: '" + arguments[n] + "'")
+            exit()
+        elif argChange == False:
+            argChange = True
+            n += 1
+            continue
+        else:
+            print("Unknown Error. Quitting.")
+            exit()
 
     elif arguments[n-1] == "--temp" or arguments[n-1] == "-t":
         argTempValue = arguments[n]
@@ -624,14 +636,26 @@ Again, I am not good with file handling so this is ChatGPT made
 
 
 
-if argRelease:
+if True:
+
+    if argChangeText == "":
+        argChangeText = "No changelog information provided"
+    else:
+        argChangeText = argChangeText.replace("'", "")
+        argChangeText = argChangeText.replace("\"", "")
+
+    if argRelease:
+        compileType = argReleaseVer
+    else:
+        compileType = "Snapshot " + str(last_compiledtm)
+    
     log("try", "Modifying CHANGELOG.md")
     # List of new lines to add at the beginning
     new_lines = [
         "# CHANGELOG\n",
         " \n",
         " \n",
-        "## " + argReleaseVer + "\n",
+        "## " + compileType + "\n",
         " \n",
         "Time of Compilation: " + str(last_compiledtm) + "\n",
         "Time Elapsed: " + str(datetime.now() - last_compiledtm) + "\n",
