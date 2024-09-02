@@ -1,0 +1,20 @@
+! Choco's Allowlist
+! by choc1024, included in the Choco's Combined List which is hosted on GitHub and GitLab
+!
+! Version: 1.0
+!
+! Carefully handmade with ❤️ in Portugal
+
+! Unblock Phishing Army, which provides a blocklist to block phishing sites.
+! This is made as a personal need because I need to compile blocklists.
+! The exact url of its blocklist is
+! https://phishing.army/download/phishing_army_blocklist_extended.txt
+
+@@||phishing.army^$important
+
+! Unblock CloudFlare services, a lot of sites will break without it
+!
+! In these days, a ton of websites use CloudFlare in order to protect themselves from DDoS and Bots.
+! Including, but not limited to: GitLab, ChatGPT, YouTube, Forge, and much more.
+
+@@||cloudflare.com^$important

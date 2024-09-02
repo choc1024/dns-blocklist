@@ -4,13 +4,15 @@ It looks like most people here just don't trust this. But seriously... why would
 # Description
 DNS Blocklists compiled by me. They are a unification of a bunch of blocklists made by other people. Also, if you find it usefull or like it, please spread the word and star this repo!
 
-Also, PLEASE READ THE CHANGELOG.MD FILE!!! NOTICE: To reduce the posibilities of the blocklist being unavailable (e.g., GitHub servers hit by a meteorite or Microsoft taking down this repo), I have made a mirror of the repo at [GitLab](https://gitlab.com/choc1024/dns-blocklist/). 
+Please read CHANGELOG.md
+
+To reduce the possibilities of a takedown (e.g. servers hit by meteorites, alien invasion...), this blocklist is hosted both on [GitHub](https://github.com/choc1024/dns-blocklist) and [GitLab](https://gitlab.com/choc1024/dns-blocklist)
 
 # FAQ
 <details>
   <summary>Which software are currently supported?</summary>
   <ul>
-    <p>The blocklist is currently compiled for AdGuard Home, IDK if it will work on e.g. PiHole. I guess it should work on most adblockers though.</p>
+    <p>The blocklist is currently compiled for AdGuard Home. Support for pihole will probably not be added as PiHole uses a hosts-format, allowing malicious actors to add malicious IPs. But AdGuard Home uses ABP (AdBlock Plus) formar, which means that this will also work with most if not all ad blockers. Sorry, Pi-Hole!</p>
   </ul>
 </details>
 <details>
@@ -26,15 +28,9 @@ Also, PLEASE READ THE CHANGELOG.MD FILE!!! NOTICE: To reduce the posibilities of
   </ul>
 </details>
 <details>
-  <summary>When Are you Going to add support for other software??</summary>
-  <ul>
-    <p>When I have enough time. But you can always fork this repo and do it yourself.</p>
-  </ul>
-</details>
-<details>
   <summary>It is too aggressive at blocking</summary>
   <ul>
-    <p>I am working on that right now.</p>
+    <p>It shouldn't be, but uh... just whitelist the domains you want? I guess that blocking too much is still better than not having false-positives and letting tracking and malware domains pass...</p>
   </ul>
 </details>
 
@@ -43,27 +39,27 @@ Also, PLEASE READ THE CHANGELOG.MD FILE!!! NOTICE: To reduce the posibilities of
 |------|-------|------|
 | HaGeZi's Pop-Up Ads | 🟢 Enabled | https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/popupads.txt |
 | AdGuard Default DNS filter | 🟢 Enabled | https://adguardteam.github.io/HostlistsRegistry/assets/filter_1.txt | 
-| AdAway Default Blocklist | 🟢 Enabled | https://adguardteam.github.io/HostlistsRegistry/assets/filter_2.txt |  
-| Stalkerware Indicators List | 🟢 Enabled | https://adguardteam.github.io/HostlistsRegistry/assets/filter_31.txt | 
+| AdAway Default Blocklist | 🟢 Enabled | https://raw.githubusercontent.com/AdAway/adaway.github.io/master/hosts.txt |  
+| Stalkerware Indicators List | 🟢 Enabled | https://github.com/AssoEchap/stalkerware-indicators/raw/master/generated/hosts_full | 
 | AdGuard DNS Popup Hosts filter | 🟢 Enabled | https://adguardteam.github.io/HostlistsRegistry/assets/filter_59.txt | 
-| Dan Pollock's List | 🟢 Enabled | https://adguardteam.github.io/HostlistsRegistry/assets/filter_4.txt |  
-| AWAvenue Ads Rule | 🟢 Enabled | https://adguardteam.github.io/HostlistsRegistry/assets/filter_53.txt | 
-| HaGeZi's Ultimate Blocklist | 🟢 Enabled | https://adguardteam.github.io/HostlistsRegistry/assets/filter_49.txt | 
-| OISD Blocklist Big | 🟢 Enabled | https://adguardteam.github.io/HostlistsRegistry/assets/filter_27.txt | 
-| Peter Lowe's Blocklist | 🟢 Enabled | https://adguardteam.github.io/HostlistsRegistry/assets/filter_3.txt | 
-| Steven Black's List | 🟢 Enabled | https://adguardteam.github.io/HostlistsRegistry/assets/filter_33.txt |  
-| HaGeZi's Allowlist Referral | 🟢 Enabled | https://adguardteam.github.io/HostlistsRegistry/assets/filter_45.txt | 
-| Dandelion Sprout Anti Push Notifications | 🟢 Enabled | https://adguardteam.github.io/HostlistsRegistry/assets/filter_39.txt | 
-| Malicious URL Blocklist (URLHaus) | 🟢 Enabled | https://adguardteam.github.io/HostlistsRegistry/assets/filter_11.txt | 
-| ShadowWhisperer's Dating List | 🟢 Enabled | https://adguardteam.github.io/HostlistsRegistry/assets/filter_57.txt | 
-| NoCoin Filter List | 🟢 Enabled | https://adguardteam.github.io/HostlistsRegistry/assets/filter_8.txt |  
-| Phishing Army | 🟢 Enabled | https://adguardteam.github.io/HostlistsRegistry/assets/filter_18.txt |  
+| Dan Pollock's List | 🟢 Enabled | https://someonewhocares.org/hosts/zero/hosts |  
+| AWAvenue Ads Rule | 🟢 Enabled | https://raw.githubusercontent.com/TG-Twilight/AWAvenue-Ads-Rule/main/AWAvenue-Ads-Rule.txt | 
+| HaGeZi's Ultimate Blocklist | 🟢 Enabled | https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/ultimate.txt | 
+| OISD Blocklist Big | 🟢 Enabled | https://big.oisd.nl/ | 
+| Peter Lowe's Blocklist | 🟢 Enabled | https://pgl.yoyo.org/adservers/serverlist.php?hostformat=adblockplus&showintro=1&mimetype=plaintext | 
+| Steven Black's List | 🟢 Enabled | https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts |  
+| HaGeZi's Allowlist Referral | 🔴 Disabled | https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/whitelist-referral.txt | 
+| Dandelion Sprout Anti Push Notifications | 🟢 Enabled | https://raw.githubusercontent.com/DandelionSprout/adfilt/master/AdGuard%20Home%20Compilation%20List/AdGuardHomeCompilationList-Notifications.txt | 
+| Malicious URL Blocklist (URLHaus) | 🟢 Enabled | https://malware-filter.gitlab.io/malware-filter/urlhaus-filter-agh.txt | 
+| ShadowWhisperer's Dating List | 🟢 Enabled | https://raw.githubusercontent.com/ShadowWhisperer/BlockLists/master/Lists/Dating | 
+| NoCoin Filter List | 🟢 Enabled | https://raw.githubusercontent.com/hoshsadiq/adblock-nocoin-list/master/hosts.txt |  
+| Phishing Army | 🟢 Enabled | https://phishing.army/download/phishing_army_blocklist_extended.txt |  
 | Phishing URL Blocklist (PhishTank and OpenPhish) | 🟢 Enabled | https://adguardteam.github.io/HostlistsRegistry/assets/filter_30.txt | 
 | HaGeZi's The World's Most Abused TLDs | 🟢 Enabled | https://adguardteam.github.io/HostlistsRegistry/assets/filter_56.txt | 
-| HaGeZi's Threat Intelligence Feeds (TIF) | 🟢 Enabled | https://adguardteam.github.io/HostlistsRegistry/assets/filter_44.txt | 
-| Dandelion Sprout's Anti-Malware List | 🟢 Enabled | https://adguardteam.github.io/HostlistsRegistry/assets/filter_12.txt | 
-| HaGeZi's DynDNS Blocklist | 🟢 Enabled | https://adguardteam.github.io/HostlistsRegistry/assets/filter_54.txt | 
-| HaGeZi's Encrypted DNS/VPN/TOR/Proxy Bypass | 🟢 Enabled | https://adguardteam.github.io/HostlistsRegistry/assets/filter_52.txt | 
+| HaGeZi's Threat Intelligence Feeds (TIF) | 🟢 Enabled | https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/tif.txt | 
+| Dandelion Sprout's Anti-Malware List | 🟢 Enabled | https://raw.githubusercontent.com/DandelionSprout/adfilt/master/Alternate%20versions%20Anti-Malware%20List/AntiMalwareAdGuardHome.txt | 
+| HaGeZi's DynDNS Blocklist | 🟢 Enabled | https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/dyndns.txt | 
+| HaGeZi's Encrypted DNS/VPN/TOR/Proxy Bypass | 🟢 Enabled | https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/doh-vpn-proxy-bypass.txt | 
 | The Blocklist Project Ads | 🟢 Enabled | https://blocklistproject.github.io/Lists/adguard/ads-ags.txt | 
 | The Blocklist Project Tracking | 🟢 Enabled | https://blocklistproject.github.io/Lists/adguard/tracking-ags.txt | 
 | The Blocklist Project Porn | 🟢 Enabled | https://blocklistproject.github.io/Lists/adguard/porn-ags.txt | 
@@ -71,7 +67,7 @@ Also, PLEASE READ THE CHANGELOG.MD FILE!!! NOTICE: To reduce the posibilities of
 | ph00lt0 Blocklist Unified | 🟢 Enabled | https://raw.githubusercontent.com/ph00lt0/blocklists/master/blocklist.txt | 
 | 1Hosts Pro | 🟢 Enabled | https://cdn.jsdelivr.net/gh/badmojr/1Hosts@master/Pro/adblock.txt | 
 | EasyList AdServers | 🟢 Enabled | https://github.com/easylist/easylist/raw/master/easylist/easylist_adservers.txt | 
-| EasyList Allowlist | 🟢 Enabled | https://github.com/easylist/easylist/raw/master/easylist/easylist_allowlist.txt | 
+| EasyList Allowlist | 🔴 Disabled | https://github.com/easylist/easylist/raw/master/easylist/easylist_allowlist.txt | 
 | EasyList Third Party | 🟢 Enabled | https://github.com/easylist/easylist/raw/master/easylist/easylist_thirdparty.txt | 
 | EasyPrivacy Tracking Servers | 🟢 Enabled | https://github.com/easylist/easylist/raw/master/easyprivacy/easyprivacy_trackingservers.txt | 
 | EasyPrivacy Tracking Servers Third Party | 🟢 Enabled | https://github.com/easylist/easylist/raw/master/easyprivacy/easyprivacy_trackingservers_thirdparty.txt | 
@@ -79,6 +75,7 @@ Also, PLEASE READ THE CHANGELOG.MD FILE!!! NOTICE: To reduce the posibilities of
 | EasyPrivacy Tracking Servers Mining | 🟢 Enabled | https://github.com/easylist/easylist/raw/master/easyprivacy/easyprivacy_trackingservers_mining.txt | 
 | EasyPrivacy Tracking Servers International | 🟢 Enabled | https://github.com/easylist/easylist/raw/master/easyprivacy/easyprivacy_trackingservers_international.txt | 
 | EasyPrivacy Tracking Servers General | 🟢 Enabled | https://github.com/easylist/easylist/raw/master/easyprivacy/easyprivacy_trackingservers_general.txt |
+| Choco's Allowlist (Handmade by me :) | 🟢 Enabled | In the repository |
 
 # Unblocking Rules
 
