@@ -1,4 +1,13 @@
 # CHANGELOG
+ 
+ 
+## v3.7
+ 
+Time of Compilation: 2024-08-31 15:37:14.486180
+Time Elapsed: 0:36:17.022659
+ 
+Updated autoCompile.py script
+ 
 
 
 ## v3.5
