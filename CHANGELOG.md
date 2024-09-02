@@ -1,6 +1,15 @@
 # CHANGELOG
  
  
+## v4.0
+ 
+Time of Compilation: 2024-09-02 12:11:03.169707
+Time Elapsed: 0:32:46.949097
+ 
+Added my own allowlist that unblocks phishing.army that provides the phishing blocklist,\n removed EasyList Allowlist and HaGeZis Allowlist. I guess it is better to have false-positives than to have ad, malware and tracking domains reach us.
+ 
+ 
+ 
 ## Snapshot 2024-09-02 10:01:46.779685
  
 Time of Compilation: 2024-09-02 10:01:46.779685
