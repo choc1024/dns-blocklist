@@ -18,3 +18,18 @@
 ! Including, but not limited to: GitLab, ChatGPT, YouTube, Forge, and much more.
 
 @@||cloudflare.com^$important
+
+! CDN aka Content Delivery Networks.
+! As the name says, used to provide content (images, media, fonts, files) to websites.
+
+@@||cdnjsdelivr.net^$important
+
+! This rule is removed because it is redundant, the previous rule allowing cloudflare.com already does it.
+! @@||cdnjs.cloudflare.com
+
+@@||fonts.googleapis.com^$important
+@@||fonts.gstatic.com^$important
+@@||ajax.googleapis.com^$important
+@@||cdnjs.com^$important
+@@||code.jquery.com^$important
+@@||ntp.org^important
