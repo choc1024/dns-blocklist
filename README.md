@@ -1,3 +1,12 @@
+# Updates
+<details>
+	<summary>Expand</summary>
+	<ul>
+		System upgrade: OK, the script is almost finished, and I somehow managed to setup Cron in my Arch Linux and schedule it to auto compile everything every 3 hours. This should be much better and easier than doing "cd ~/Code/dns-blocklist && python autoCompile.py" every so often.
+	</ul>
+</details>
+
+
 # Trust me bro
 It looks like most people here just don't trust this. But seriously... why would I redirect you to malicious IPs? Also, there is no way to do so, because everything is in ABP format, which does not support this. Still don't believe me? Then use RegExp (Regular Expressions, aka regex) to search for IPv4 and IPv6 IPs in the blocklist. There is none.
 
