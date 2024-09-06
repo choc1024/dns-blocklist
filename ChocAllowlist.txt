@@ -33,3 +33,9 @@
 @@||cdnjs.com^$important
 @@||code.jquery.com^$important
 @@||ntp.org^important
+
+! For people who needs it
+@@||piratebayproxy.net^$important
+
+! AutoDesk
+@@||autodesk.com^$important
