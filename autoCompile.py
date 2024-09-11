@@ -71,7 +71,27 @@ def delete_all_files_in_directory(directory_path):
             os.remove(file_path)  # Delete the file
             print(f"Deleted file: {file_path}")
 
+
+
+def delete_folder(folder_path):
+    if os.path.exists(folder_path) and os.path.isdir(folder_path):
+        try:
+            shutil.rmtree(folder_path)
+            print(f"Successfully deleted the folder: {folder_path}")
+        except Exception as e:
+            print(f"Error: {e}")
+    else:
+        print("The folder does not exist or is not a directory.")
+
+
+
+
+
+
+
 log("ok", "Libraries Imported, Functions Defined. Everything is OK.")
+
+
 
 
 
@@ -594,6 +614,89 @@ elif not argRelease:
 
 
 log("ok", "Everything seems to be OK")
+
+
+if argNotLatest:
+    log("warning", "--not-latest is set, but is deprecated. Nothing will be done regards that.")
+
+
+
+'''
+Time to update the CHANGELOG.md
+
+Again, I am not good with file handling so this is ChatGPT made
+'''
+
+
+
+if True:
+
+    if argChangeText == "":
+        argChangeText = "No changelog information provided"
+    else:
+        argChangeText = argChangeText.replace("'", "")
+        argChangeText = argChangeText.replace("\"", "")
+        argChangeText = argChangeText.replace("\\n", "\n")
+
+    if argRelease:
+        compileType = argReleaseVer
+    else:
+        compileType = "Snapshot " + str(last_compiledtm)
+    
+    log("try", "Modifying CHANGELOG.md")
+    # List of new lines to add at the beginning
+    new_lines = [
+        "# CHANGELOG\n",
+        " \n",
+        " \n",
+        "## " + compileType + "\n",
+        " \n",
+        "Time of Compilation: " + str(last_compiledtm) + "\n",
+        "\n",
+        "Time Elapsed: " + str(datetime.now() - last_compiledtm) + "\n",
+        " \n",
+        argChangeText + "\n",
+        " \n"
+    ]
+
+
+
+    # Open the file, read all lines, and close the file
+    with open("CHANGELOG.md", "r") as file:
+        log("ok", "Opened CHANGELOG.md")
+        lines = file.readlines()
+
+    # Remove the first line
+    lines = lines[1:]
+
+    # Insert the new lines at the beginning
+    lines = new_lines + lines
+
+    # Write the updated content back to the file
+    with open("CHANGELOG.md", "w") as file:
+        file.writelines(lines)
+        log("ok", "Wrote changes to CHANGELOG.md")
+
+    log("ok", "All operations completed!")
+
+
+log("try", "Cleaning up Temporary folder (Non Critical)")
+
+delete_folder(destConfigDir)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 log("try", "Running 'git add .'")
 
 gitAdd = subprocess.run(["git", "add", "."])
@@ -622,81 +725,3 @@ log("info", "Please make sure that you have GitLab credentials cached, if not, l
 glabPush = subprocess.run(["git", "push", "https://gitlab.com/choc1024/dns-blocklist.git", "main"])
 
 log("info", "Output: " + str(ghPush.stdout))
-
-if argNotLatest:
-    log("warning", "--not-latest is set, but is deprecated. Nothing will be done regards that.")
-
-
-
-'''
-Time to update the CHANGELOG.md
-
-Again, I am not good with file handling so this is ChatGPT made
-'''
-
-
-
-if True:
-
-    if argChangeText == "":
-        argChangeText = "No changelog information provided"
-    else:
-        argChangeText = argChangeText.replace("'", "")
-        argChangeText = argChangeText.replace("\"", "")
-
-    if argRelease:
-        compileType = argReleaseVer
-    else:
-        compileType = "Snapshot " + str(last_compiledtm)
-    
-    log("try", "Modifying CHANGELOG.md")
-    # List of new lines to add at the beginning
-    new_lines = [
-        "# CHANGELOG\n",
-        " \n",
-        " \n",
-        "## " + compileType + "\n",
-        " \n",
-        "Time of Compilation: " + str(last_compiledtm) + "\n",
-        "Time Elapsed: " + str(datetime.now() - last_compiledtm) + "\n",
-        " \n",
-        argChangeText + "\n",
-        " \n"
-    ]
-
-
-
-    # Open the file, read all lines, and close the file
-    with open("CHANGELOG.md", "r") as file:
-        log("ok", "Opened CHANGELOG.md")
-        lines = file.readlines()
-
-    # Remove the first line
-    lines = lines[1:]
-
-    # Insert the new lines at the beginning
-    lines = new_lines + lines
-
-    # Write the updated content back to the file
-    with open("CHANGELOG.md", "w") as file:
-        file.writelines(lines)
-        log("ok", "Wrote changes to CHANGELOG.md")
-
-    log("ok", "All operations completed!")
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
