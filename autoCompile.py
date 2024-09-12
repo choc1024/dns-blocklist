@@ -725,3 +725,5 @@ log("info", "Please make sure that you have GitLab credentials cached, if not, l
 glabPush = subprocess.run(["git", "push", "https://gitlab.com/choc1024/dns-blocklist.git", "main"])
 
 log("info", "Output: " + str(ghPush.stdout))
+
+log("ok", "Finished")
