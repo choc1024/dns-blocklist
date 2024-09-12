@@ -1,5 +1,9 @@
 # CHANGELOG
+
  
+## MANUAL UPDATE
+
+Due to storage, network and other obvious reasons, I find myself forced to reduce the size of this repository by deleting older snapshots. For now, only snapshots that are more than 15 days old will be deleted. Versions will not. This will definitely make cloning, pulling and pushing faster, also, it is good for my pc because it is right now taking almost 1 GB.
  
 ## Snapshot 2024-09-12 10:01:11.150784
  
