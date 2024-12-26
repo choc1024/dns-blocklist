@@ -1,3 +1,18 @@
+# ⚠️ WARNING ⚠️
+During the next months or so, there will be major updates and etc, with the following changes:
+
+- Delete ALL past versions
+- There will be no history of versions, and new blocklists will replace the old ones
+- There will be flavours of the blocklist, including (but not limited to):
+ - Essentials
+ - Mobile (Normal + Mobile blocklists)
+ - Normal
+ - Hardcore 
+- The script will be completely rewritten, FROM SCRATCH, and possibly with a different language (nim?)
+- The README.md will be completely rewritten, FROM SCRATCH.
+
+Thanks for your patience!
+
 # Updates
 <details>
 	<summary>Expand</summary>
