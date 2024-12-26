@@ -1,6 +1,16 @@
 # CHANGELOG
  
  
+## v4.0
+ 
+Time of Compilation: 2024-12-26 14:45:08.158302
+
+Time Elapsed: 0:52:38.882360
+ 
+Added some new blocklists and changed the source of my allowlist to the one hosted on github
+ 
+ 
+ 
 ## v3.5
  
 Time of Compilation: 2024-12-13 09:16:25.218603

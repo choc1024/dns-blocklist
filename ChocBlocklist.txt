@@ -1,6 +1,0 @@
-! Choco's Allowlist
-! by choc1024, included in the Choco's Combined List which is hosted on GitHub and GitLab
-!
-! Version: 1.0
-!
-! Carefully handmade with ❤️ in Portugal

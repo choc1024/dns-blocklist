@@ -154,7 +154,15 @@
 		},
 		{
 			"name": "Choco's Allowlist",
-			"source": "ChocAllowlist.txt"
+			"source": "https://raw.githubusercontent.com/choc1024/allowlist/refs/heads/main/allowlist.txt"
+		},
+		{
+			"name": "PrivacyShield",
+			"source": "https://raw.githubusercontent.com/Lennolium/PrivacyShield/master/Filters/PrivacyShield-hosts.txt"
+		},
+		{
+			"name": "Combined Privacy Block List",
+			"source": "https://raw.githubusercontent.com/bongochong/CombinedPrivacyBlockLists/master/cpbl-abp-list.txt"
 		}
 	],
 	"transformations": ["Deduplicate", "Compress", "RemoveEmptyLines", "TrimLines", "InsertFinalNewLine"]
