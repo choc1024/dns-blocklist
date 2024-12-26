@@ -44,7 +44,7 @@ To reduce the possibilities of a takedown (e.g. servers hit by meteorites, alien
 </details>
 
 # Blocklists Included
-| Name | Status in Main Blocklist | URL |
+| Name | Status | URL |
 |------|-------|------|
 | HaGeZi's Pop-Up Ads | 🟢 Enabled | https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/popupads.txt |
 | AdGuard Default DNS filter | 🟢 Enabled | https://adguardteam.github.io/HostlistsRegistry/assets/filter_1.txt | 
@@ -84,7 +84,9 @@ To reduce the possibilities of a takedown (e.g. servers hit by meteorites, alien
 | EasyPrivacy Tracking Servers Mining | 🟢 Enabled | https://github.com/easylist/easylist/raw/master/easyprivacy/easyprivacy_trackingservers_mining.txt | 
 | EasyPrivacy Tracking Servers International | 🟢 Enabled | https://github.com/easylist/easylist/raw/master/easyprivacy/easyprivacy_trackingservers_international.txt | 
 | EasyPrivacy Tracking Servers General | 🟢 Enabled | https://github.com/easylist/easylist/raw/master/easyprivacy/easyprivacy_trackingservers_general.txt |
-| Choco's Allowlist (Handmade by me :) | 🟢 Enabled | In the repository |
+| Choc's Allowlist (Handmade by me :) | 🟢 Enabled | https://github.com/choc1024/allowlist/blob/main/allowlist.txt |
+| PrivacyShield | 🟢 Enabled | https://raw.githubusercontent.com/Lennolium/PrivacyShield/master/Filters/PrivacyShield-hosts.txt |
+| Combined Privacy Block List | 🟢 Enabled | https://raw.githubusercontent.com/bongochong/CombinedPrivacyBlockLists/master/cpbl-abp-list.txt |
 
 # Unblocking Rules
 
